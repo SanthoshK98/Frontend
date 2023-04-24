@@ -15,7 +15,7 @@ import Singleproduct from './Components/Singleproduct';
 function App() {
 
   const[products,setProducts] = useState([]);
-
+console.log("Hello world")
 useEffect(()=>{
 axios.get('http://localhost:5099/getproducts').then((response)=>{
 // console.log(response.data.productdata)
